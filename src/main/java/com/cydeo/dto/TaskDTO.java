@@ -12,7 +12,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class TaskDTO {
 
-    private long id;
+    private Long id;
     private ProjectDTO project;
     private UserDTO assignedEmployee;
     private String taskSubject;
